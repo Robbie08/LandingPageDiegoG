@@ -1,0 +1,363 @@
+
+/*------------------------------------------------- */
+/* BASIC SETUP*/
+/*--------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+html{
+    background: #fff;
+    color:#555;
+    /*font-family: 'Lato', 'Ariel',sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom:1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/*------------------------------------------------- */
+/* REUSABLE COMPONENTS*/
+/*--------------------------------------------------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+section {
+    padding:20px 0;
+    
+}
+
+box {
+    padding: 1%;
+}
+/*----------ICONS-----------*/
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #00ab6b;
+    margin-bottom: 10px;
+}
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #00ab6b;
+    font-size: 120%;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+    
+}
+
+
+
+/*----------HEADINGS-----------*/
+h1,
+h2,
+h3,
+h4 {
+   
+    font-weight: 300;
+    text-transform: uppercase;
+    
+    
+    
+}
+h1{
+    margin-top:0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 260%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h3{
+    font-size: 110%; 
+    margin-bottom: 15px;
+}
+
+h4{
+    font-size: 140%;
+    margin-bottom: 15px;
+}
+
+h2:after {
+    display:block; 
+    height: 2px;
+    background-color: #00ab6b;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+/*-----------PARAGRAPHS----------*/
+
+.long-copy {
+    line-height: 135%;
+    width: 80%;
+    margin-left: 12%;
+    margin-bottom: 50px;
+    font-size: 115%;
+    text-align: left;
+    color:#fff;
+}
+
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+/*-----------LINKS------------*/
+
+a:link,
+a:visited {
+    text-decoration: none; 
+    color: #cf6d17;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #cf6d17;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+    
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent; 
+}
+/*-----------BUTTONS------------*/
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px; 
+    font-weight: 300;
+    text-decoration: none; 
+    border-radius: 200px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    
+}
+.btn-footer:link,
+.btn-footer:visited,
+input[type=submit] {
+    background: #00ab6b;
+    border: 1px solid white;
+    color:#fff;
+    border-radius: 5px;
+    
+}
+
+
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background: #02b875; 
+    border: 1px solid #018655;
+    color: #fff; 
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #02b875;
+    color: #02b875;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #018655;
+}
+
+
+.btn-footer:hover,
+.btn-footer:active {
+    border: 1px solid #fff;
+    color:white;
+    background: black;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    
+    border: 1px solid #018655; 
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #00ab6b;
+    color: #fff;
+}
+
+header {
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh; 
+}
+
+img {
+    border-radius: 50%;
+    height:210px;
+    
+}
+/*--------------------HOW IT WORKS------------*/
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 20px;
+	margin: 0px;
+    text-align: center;
+    padding-top:50px;
+    color:#fff;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+
+/*------------------------------------------------- */
+/* FORM */
+/*--------------------------------------------------*/
+
+input[type=text],
+input[type=email], 
+select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    width:100%;
+    padding: 12px 20px;
+    margin-top: 16px;
+    font-size: 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
