@@ -44,12 +44,33 @@ html, body{
 
 section {
     padding:20px 0;
+    height: 100vh;
 
 }
 
 box {
     padding: 1%;
 }
+
+.big-box {
+      text-align: center;
+      color:white;
+      height: 100vh;
+      padding-top: 40px;
+
+}
+
+.left {
+
+
+}
+.right {
+
+
+
+
+}
+
 /*----------ICONS-----------*/
 .icon-big {
     font-size: 350%;
@@ -242,6 +263,8 @@ input[type=submit]:active {
     color: #fff;
 }
 
+
+
 header {
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
@@ -255,7 +278,6 @@ header {
 img {
     border-radius: 50%;
     height:210px;
-
 }
 
 
@@ -270,6 +292,7 @@ img {
     text-align: center;
     padding-top:50px;
     color:#fff;
+    height: 100vh;
 }
 
 /*  COLUMN SETUP  */
@@ -336,7 +359,7 @@ input[type=submit] {
     width:100%;
     padding: 12px 20px;
     margin-top: 16px;
-    font-size: 24px;
+
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -345,6 +368,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+
 }
 
 .container {

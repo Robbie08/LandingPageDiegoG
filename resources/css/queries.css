@@ -1,0 +1,51 @@
+
+/*-Big Tablets - 1200px: width smaller than the 1140px row-*/
+@media only screen and (max-width: 1200px){
+  .row {
+      padding: 0 2%;
+  }
+}
+
+
+/*-Small Tablets - Big Tablets: from 768 - 1023px-*/
+@media only screen and (max-width: 1023px){
+  body{ font-size: 16px; }
+  section {padding: 60px 0;}
+  .long-copy {
+      width:80%;
+      margin-left: 10%;
+  }
+ 
+
+}
+
+/*-Small phones - Small Tablets: from 481 - 767px-*/
+@media only screen and (max-width: 767px) {
+  body{ font-size: 14px; }
+  section {padding: 38px 0;}
+
+  h1 { font-size: 180%;}
+  h2 { font-size: 150%;}
+  .long-copy {
+      width:100%;
+      margin-left: 0%;
+
+  }
+
+
+  .btn-full:link,
+  .btn-full:visited,
+  input[type=submit] {
+      background: #02b875;
+      border: 1px solid #018655;
+      color: #fff;
+      margin-right: 2px;
+  }
+
+}
+
+/*-Small phones: from 0 - 480px-*/
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0;}
+
+}

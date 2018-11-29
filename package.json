@@ -1,0 +1,23 @@
+{
+  "name": "student_portfolio",
+  "version": "1.0.0",
+  "description": "My student portfolio that will display my work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robbie08/MyStudentPortfolio.git"
+  },
+  "author": "Roberto Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Robbie08/MyStudentPortfolio/issues"
+  },
+  "homepage": "https://github.com/Robbie08/MyStudentPortfolio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "typed.js": "^2.0.6"
+  }
+}
