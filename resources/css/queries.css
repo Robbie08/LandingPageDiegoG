@@ -3,9 +3,10 @@
 @media only screen and (max-width: 1200px) {
     .hero-text-box {
         width: 100%;
-    padding: 2% 2%;
-    top: 60%;
-    font-size: 110%;
+        padding: 2% 2%;
+        top: 60%;
+        font-size: 110%;
+
 
     }
 
@@ -48,6 +49,21 @@
     
     
 }
+
+
+
+/* Portrait */
+@media screen 
+  and (device-width: 412px) 
+  and (device-height: 823px) 
+  and (-webkit-device-pixel-ratio: 3.5) 
+  and (orientation: portrait) {
+
+      body{font:8px;}
+        
+        
+        
+}
     
     
 /*Small Tablets to Big Tablet: from 768px to 1023*/
@@ -55,10 +71,7 @@
     body {font-size: 17px;}
     section { padding: 60px 0;}
     
-        
- 
-  
-    
+
     h2 {
         margin-top:15%;
     }
@@ -123,41 +136,46 @@
 @media only screen and (max-width: 767px) {
 
     body {font-size: 16px;}
-    section {padding: 30px 0;}
+    section {padding: 28px 0;}
     
-    .row,
-    .hero-text-box { 
+    .row { 
          padding: 0 4%;
+        
+    }
     
-        font-size: 95%;
+    .hero-text-box {
+        padding: 0 0%;
+      
     }
     .col {
         width: 100%;
         margin: 0 0 4% 0;
         
     }
-  
-
     
-    h1 { font-size: 190%;}
-    h2 { font-size: 150%;}
+     
+    h1{font-size: 195%;}
+   .long-copy {
+       
+        width:98%;
+        margin-left: 1%;
+        
+    } 
     
-    .long-copy {
-        width: 100%;
-
-        margin-left: 0%;
-        text-align: center;
+    .mid-copy {
+        width: 90%;
+        margin-left: 7%;
     }
-    
+  
     .contact-form {width: 100%; }
     .app-screen { width: 40%;}
     .steps-box:first-child {text-align: center;}
     
     .works-step div {
-    height: 40px;
-    width: 40px;
-    padding: 4px;
-    margin-right:15px;
+        height: 40px;
+        width: 40px;
+        padding: 4px;
+        margin-right:15px;
     }
 
   
@@ -182,23 +200,23 @@ and (max-width:480px) {
 }
     
     .hero-text-box {
-        font-size:110%;
+        
     }
     
-    h1{font-size: 170%;
-    margin-top:15%;}
+    h1{font-size: 220%;
+   }
     h2 {font-size:135%;}
 
     .long-copy {
         
-        font-size: 110%;
+       
         width:95%;
         margin-left: 2.5%;
     }
     
     .mid-copy {
         margin: 5px 0;
-        font-size: 80%;
+        
         width:80%;
         line-height: 20px;
         margin-left:12%;
@@ -232,6 +250,7 @@ and (max-width:480px) {
     }
     
 }
+
 
 
 /* ----  IPHONE X  -------*/
@@ -326,6 +345,6 @@ and (-webkit-device-pixel-ratio : 3) {
         body{font-size: 9px;}
         .hero-text-box {
             font-size: 140%;
-            top: 50%;
+            top: 
         }
 }
