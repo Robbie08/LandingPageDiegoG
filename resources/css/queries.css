@@ -199,9 +199,7 @@ and (max-width:480px) {
         height: 100vh; 
 }
     
-    .hero-text-box {
-        
-    }
+   
     
     h1{font-size: 220%;
    }
@@ -338,13 +336,18 @@ and (-webkit-device-pixel-ratio : 3) {
         }
 }
 
+@media only screen
+    and (max-width: 378px){
+        body{font-size: 13px;}
+}
 
 @media only screen 
     and (max-width: 335px){
         
-        body{font-size: 9px;}
+        h1{font-size: 240%}
+        body{font-size: 10px;}
         .hero-text-box {
-            font-size: 140%;
+            font-size: 130%;
             top: 
         }
 }
