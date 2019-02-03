@@ -103,7 +103,7 @@
         text-align: center;
     }
     .mid-copy {
-        font-size:100%;
+        
         width:70%;
         margin-left: 15%;
     }
@@ -257,18 +257,20 @@ and (device-width : 375px)
 and (device-height : 812px) 
 and (-webkit-device-pixel-ratio : 3) {
     
-    body{font-size:14px;}
+    body{font-size:16px;}
     section{padding:20px 0 ;}
     
-    h1{font-size: 155%;}
+    h1{font-size: 200%;}
     .hero-text-box {
-        top:50%;
+        top:52%;
+        margin-top:10px;
+        font-size: 110%;
     }
     
     .long-copy {
-        font-size: :90%;
-        margin-bottom: 15px;
-    }
+        margin: 7% 2%;
+        width:100%;}
+
 }
 
 
@@ -284,25 +286,14 @@ and (-webkit-device-pixel-ratio : 3) {
         .hero-text-box {
             width: 100%;
             top:55%;
-            
+            font-size: 90%;
+            margin-top:2px;
         }
-    
-        h1{font-size:150%;}
 
-        .long-copy{
-            font-size:90%;
-            line-height: 17px;
-            margin-bottom:15px;
-
-        }
+        h1{font-size:180%;}
         
-         
-      
+        .long-copy{margin: 5px 2%;}
 
-        .mid-copy {
-            font-size:75%;
-            line-height: 15px;
-        }
 
 }
 
@@ -338,7 +329,7 @@ and (-webkit-device-pixel-ratio : 3) {
 
 @media only screen
     and (max-width: 378px){
-        body{font-size: 13px;}
+        body{font-size: 14px;}
 }
 
 @media only screen 
